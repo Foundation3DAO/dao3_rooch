@@ -1,0 +1,14 @@
+[package]
+name = "dao3_rooch"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/rooch-network/rooch.git", subdir = "moveos/moveos-stdlib/move-stdlib", rev = "main" }
+MoveosStdlib = { git = "https://github.com/rooch-network/rooch.git", subdir = "moveos/moveos-stdlib/moveos-stdlib", rev = "main" }
+RoochFramework = { git = "https://github.com/rooch-network/rooch.git", subdir = "crates/rooch-framework", rev = "main" }
+
+[addresses]
+dao3_rooch =  "0xc0ecdb5bb3c63f6bea2d52efdf8b8ad03a9541828b6251f44abb481b0bdf189f"
+std =  "0x1"
+moveos_std =  "0x2"
+rooch_framework =  "0x3"
